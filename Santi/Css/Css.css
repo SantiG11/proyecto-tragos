@@ -1,4 +1,18 @@
 
+    body{
+        /*background-color: rgba(70, 67, 67, 0.534);*/
+       
+        margin: 0;
+    }
+    div{
+        background-image: url("https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?cs=srgb&dl=pexels-chris-f-1283219.jpg&fm=jpg");
+        background-position: center;
+        padding: 10px;
+        text-align: center;
+        
+    }
+
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -45,4 +59,6 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-color: hsl(hue, saturation, lightness);
     }
-    tr:hover {background-color: violet;}
+    tr:hover {
+        background-color: violet;
+    }
